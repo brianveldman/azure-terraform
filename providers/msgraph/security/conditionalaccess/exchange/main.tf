@@ -1,7 +1,7 @@
 resource "msgraph_resource" "ca_exo_require_mfa" {
-  url = "identity/conditionalAccess/policies"
+  url  = "identity/conditionalAccess/policies"
   body = {
-    displayName = var.ca_display_name
+    displayName = "Require MFA for Exchange Online"
     state       = "enabled"
     conditions  = {
       clientAppTypes = [
@@ -14,7 +14,7 @@ resource "msgraph_resource" "ca_exo_require_mfa" {
         ]
       }
       users = {
-        includeGroups = [var.ca_group_id]
+        includeGroups = ["groupId"]
       }
       locations = {
         includeLocations = ["All"]
