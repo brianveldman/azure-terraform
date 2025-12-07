@@ -11,6 +11,9 @@ Welcome on my page, my name is Brian Veldman, I created this repository for my p
 - [Website](https://cloudtips.nl)
 
 ## Microsoft Graph
+ - [One-time action: Block Microsoft Entra ID - User](https://github.com/brianveldman/azure-terraform/blob/main/providers/msgraph/entra/one-time-actions/block-user/main.tf)
+ - [One-time action: Reset Password Microsoft Entra ID - User](https://github.com/brianveldman/azure-terraform/blob/main/providers/msgraph/entra/one-time-actions/reset-password/main.tf)
+ - [One-time action: Send E-mail to Microsoft Entra ID - User](https://github.com/brianveldman/azure-terraform/blob/main/providers/msgraph/entra/one-time-actions/send-email/main.tf)
  - [Deploy Microsoft - Conditional Access Policy](https://github.com/brianveldman/azure-terraform/blob/main/providers/msgraph/security/conditionalaccess/exchange/main.tf)
  - [Deploy Microsoft Entra ID - Restrict Tenant Creation](https://github.com/brianveldman/azure-terraform/blob/main/providers/msgraph/entra/restrict-tenant-creation/main.tf)
  - [Deploy Microsoft Entra ID - Multi Configuration](https://github.com/brianveldman/azure-terraform/blob/main/providers/msgraph/entra/multi-configuration/main.tf)
